@@ -1,0 +1,91 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "STS测评",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/index/ror",
+      "style": {
+        "navigationBarTitleText": "跳槽公式（回报率）",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/index/ros",
+      "style": {
+        "navigationBarTitleText": "跳槽公式（成功率）",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/index/result",
+      "style": {
+        "navigationBarTitleText": "跳槽决策结果",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "packages",
+      "pages": [
+        {
+          "path": "common/file-list",
+          "style": {
+            "navigationBarTitleText": "附件"
+          }
+        },
+        {
+          "path": "common/web-view",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "common/map",
+          "style": {
+            "navigationBarTitleText": "地图"
+          }
+        },
+        {
+          "path": "common/city",
+          "style": {
+            "navigationBarTitleText": "选择城市",
+            "backgroundColor": "#ffffff"
+          }
+        },
+        {
+          "path": "common/selector",
+          "style": {
+            "navigationBarTitleText": "",
+            "backgroundColor": "#ffffff"
+          }
+        },
+        {
+          "path": "common/long-text",
+          "style": {
+            "navigationBarTitleText": "",
+            "backgroundColor": "#ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "STS",
+    "navigationBarBackgroundColor": "#F9F9FD",
+    "backgroundColor": "#F9F9FD",
+    "navigationStyle": "default"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  }
+}

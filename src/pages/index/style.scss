@@ -1,0 +1,15 @@
+.main-title {
+  @apply text-xl font-medium text-[#279D9F];
+}
+
+.section-title {
+  @apply mt-5 font-medium;
+}
+
+.section-body {
+  @apply mt-5 flex justify-center gap-4;
+}
+
+.card {
+  @apply bg-white border-[#707C97] border-solid border-[1px] p-4 rounded-lg;
+}
