@@ -16,7 +16,7 @@ export const APP_DEFAULT_TITLE = 'CGL';
 export const HOME_PAGE: RoutePages.Path = '/pages/index/index';
 
 /** 认证页 */
-export const AUTH_PAGE: RoutePages.Path = '/pages/auth/register-B';
+// export const AUTH_PAGE: RoutePages.Path = '/pages/auth/register-B';
 
 /** tab_bar 页面 */
 // export const TAB_BAR_PAGES = tabBar.list.map(

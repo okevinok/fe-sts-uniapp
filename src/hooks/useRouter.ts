@@ -1,7 +1,7 @@
 import { reactive } from 'vue';
 import { onLoad, onUnload } from '@dcloudio/uni-app';
 import { generateUrl, decodeUrlQuery, getCurrentPage } from '@/utils/common';
-import { TAB_BAR_PAGES, UNAUTH_PAGES, AUTH_PAGE, HOME_PAGE } from '@/config';
+import { TAB_BAR_PAGES, UNAUTH_PAGES, HOME_PAGE } from '@/config';
 // import { useAuthStore } from '@/stores';
 
 /** @name 跳转的page路径 */

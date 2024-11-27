@@ -65,7 +65,7 @@ async function handleNext() {
 
 <template>
   <Layout>
-    <view class="text-xl font-medium text-turquoise">测试一下你是否应该离职？</view>
+    <view class="main-title">测试一下你是否应该离职？</view>
     <view class="my-4 card">
       这个公式经过拥有18年专业人才猎寻经验的人才咨询专家-猎头村村长
       Charlie加以完善和延伸，求职者可以根据自己跳槽后可能拿到的四个通用领域的潜在回报，且输入对不同回报的权重比例，然后再根据自身情况加入新企业后生存下来可能性，最后可以计算出选择跳槽成功的可能性有多大。

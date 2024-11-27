@@ -1,4 +1,4 @@
-import { AUTH_PAGE } from '@/config';
+// import { AUTH_PAGE } from '@/config';
 import { useRouter } from '@/hooks/useRouter';
 import { AuthMap } from '@/models/auth';
 import { entityService } from '@/services/entity';
@@ -117,7 +117,7 @@ export const useAuthStore = defineStore('auth', {
     },
     logout() {
       this.setToken(undefined);
-      useRouter().push(AUTH_PAGE);
+      // useRouter().push(AUTH_PAGE);
       uni.clearStorageSync();
     },
     setInviterId(val: string) {

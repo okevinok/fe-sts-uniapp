@@ -1,5 +1,5 @@
 import { onShow } from '@dcloudio/uni-app';
-import { checkAuthRoute, useRouter } from '@/hooks/useRouter';
+import { useRouter } from '@/hooks/useRouter';
 import { useAuthStore } from '@/stores';
 
 export const useTabBar = () => {
@@ -8,8 +8,8 @@ export const useTabBar = () => {
   onShow(() => {
     if (!authStore.isNormalUser) {
       console.log('auth error', authStore.user);
-      router.reLaunch('/pages/auth/error');
+      // router.reLaunch('/pages/auth/error');
     }
-    checkAuthRoute();
+    // checkAuthRoute();
   });
 };
