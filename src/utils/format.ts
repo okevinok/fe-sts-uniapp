@@ -97,7 +97,7 @@ export function formatFileUrl(url?: string, option?: { forceCDN?: boolean }) {
     !_url.includes('clientId=')
   ) {
     const { token, clientOpenId: clientId } = useAuthStore();
-    _url = generateUrl(_url, { token, clientId });
+    _url = generateUrl(_url, { token: import.meta.env.VITE_LONG_TOKEN, clientId });
   }
   return _url;
 }
