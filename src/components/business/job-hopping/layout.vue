@@ -1,3 +1,7 @@
+<script lang="ts">
+export default { name: 'Layout', options: { virtualHost: true } };
+</script>
+
 <script lang="ts" setup>
 import Banner from '@/components/business/other/banner.vue';
 import { useRequest } from '@/hooks/useRequest';
